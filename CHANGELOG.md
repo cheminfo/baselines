@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://www.github.com/cheminfo/baselines/compare/v1.0.0...v1.1.0) (2021-04-20)
+
+
+### Features
+
+* adding cheminfo metadata ([#24](https://www.github.com/cheminfo/baselines/issues/24)) ([ed2b535](https://www.github.com/cheminfo/baselines/commit/ed2b535e52410f32c8b4e39257caa866b27b709b))
+
 ## [1.0.0](https://www.github.com/cheminfo/baselines/compare/v0.1.2...v1.0.0) (2021-03-24)
 
 
