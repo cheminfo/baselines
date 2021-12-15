@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.1](https://www.github.com/cheminfo/baselines/compare/v1.1.0...v1.1.1) (2021-12-15)
+
+
+### Bug Fixes
+
+* update dependencies and remove ml-gsd indirect dependency ([426432c](https://www.github.com/cheminfo/baselines/commit/426432c0a49478fea972360c017ef6d7b6ae7234))
+
 ## [1.1.0](https://www.github.com/cheminfo/baselines/compare/v1.0.0...v1.1.0) (2021-04-20)
 
 
