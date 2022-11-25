@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.4](https://github.com/cheminfo/baselines/compare/v1.1.3...v1.1.4) (2022-11-25)
+
+
+### Bug Fixes
+
+* use esm interop compat in rollup config ([2b4792c](https://github.com/cheminfo/baselines/commit/2b4792c6ebef3e8b336c835f040ee6739cb4aac6))
+
 ## [1.1.3](https://github.com/cheminfo/baselines/compare/v1.1.2...v1.1.3) (2022-11-25)
 
 
