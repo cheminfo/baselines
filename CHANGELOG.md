@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.3](https://github.com/cheminfo/baselines/compare/v1.1.2...v1.1.3) (2022-11-25)
+
+
+### Bug Fixes
+
+* release ([dab45b7](https://github.com/cheminfo/baselines/commit/dab45b793d9eadbe9342a8675e08616cfd11e6f2))
+
 ## [1.1.2](https://github.com/cheminfo/baselines/compare/v1.1.1...v1.1.2) (2022-11-25)
 
 
