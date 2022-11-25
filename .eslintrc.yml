@@ -1,5 +1,5 @@
 extends: cheminfo
 parserOptions:
   sourceType: module
-rules: 
-   jest/no-done-callback: off
+env:
+  jest: true

@@ -15,19 +15,19 @@ import { xRollingMedian } from 'ml-spectra-processing';
 export function rollingMedianBaseline(ys, options = {}) {
   let window = Math.max(Math.round(ys.length * 0.1), 2);
   let defaults = {
-    window: window,
+    window,
     padding: {
       size: window - 1,
       algorithm: 'duplicate',
       value: 0,
     },
   };
-  let actualOptions = Object.assign({}, defaults, options);
+  let actualOptions = { ...defaults, ...options };
   let baseline = xRollingMedian(ys, actualOptions);
   let corrected = new Float64Array(ys.length);
   for (let i = 0; i < corrected.length; i++) {
     corrected[i] = ys[i] - baseline[i];
   }
 
-  return { baseline: baseline, correctedSpectrum: corrected };
+  return { baseline, correctedSpectrum: corrected };
 }

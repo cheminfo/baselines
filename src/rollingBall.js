@@ -33,5 +33,5 @@ export function rollingBallBaseline(ys, options = {}) {
     corrected[i] = ys[i] - baseline[i];
   }
 
-  return { baseline: baseline, correctedSpectrum: corrected };
+  return { baseline, correctedSpectrum: corrected };
 }
