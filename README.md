@@ -33,7 +33,7 @@ const baselineOutput = rollingBallBaseline(spectrum);
 
 [npm-image]: https://img.shields.io/npm/v/baselines.svg
 [npm-url]: https://www.npmjs.com/package/baselines
-[ci-image]: https://github.com/cheminfo/baselines/workflows/Node.js%20CI/badge.svg?branch=master
+[ci-image]: https://github.com/cheminfo/baselines/workflows/Node.js%20CI/badge.svg?branch=main
 [ci-url]: https://github.com/cheminfo/baselines/actions?query=workflow%3A%22Node.js+CI%22
 [download-image]: https://img.shields.io/npm/dm/baselines.svg
 [download-url]: https://www.npmjs.com/package/baselines

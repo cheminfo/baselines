@@ -58,7 +58,7 @@
     "ml-spectra-processing": "^12.0.0"
   },
   "info": {
-    "logo": "https://raw.githubusercontent.com/cheminfo/font/master/src/chart/scatter-line.svg",
+    "logo": "https://raw.githubusercontent.com/cheminfo/font/main/src/chart/scatter-line.svg",
     "domain": [
       "Visualization"
     ],
