@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.6](https://github.com/cheminfo/baselines/compare/v1.1.5...v1.1.6) (2023-08-22)
+
+
+### Bug Fixes
+
+* dependencies and node16 module resolution ([2a84b05](https://github.com/cheminfo/baselines/commit/2a84b0594d743fe16ff5c043486954ab060960a4))
+
 ## [1.1.5](https://github.com/cheminfo/baselines/compare/v1.1.4...v1.1.5) (2023-03-24)
 
 
