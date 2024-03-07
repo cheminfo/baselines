@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.7](https://github.com/cheminfo/baselines/compare/v1.1.6...v1.1.7) (2024-03-07)
+
+
+### Bug Fixes
+
+* update ml-spectra-processing and dependencies ([5f86d82](https://github.com/cheminfo/baselines/commit/5f86d82ad1876547e19abd3eb18e847b8a188019))
+
 ## [1.1.6](https://github.com/cheminfo/baselines/compare/v1.1.5...v1.1.6) (2023-08-22)
 
 
