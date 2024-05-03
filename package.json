@@ -44,7 +44,7 @@
     "rollup": "^4.12.1"
   },
   "dependencies": {
-    "ml-airpls": "^1.0.3",
+    "ml-airpls": "^2.0.0",
     "ml-array-sequential-fill": "^1.1.8",
     "ml-baseline-correction-regression": "^1.0.2",
     "ml-rolling-ball-baseline": "^2.0.3",
