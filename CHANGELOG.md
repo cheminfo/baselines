@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.8](https://github.com/cheminfo/baselines/compare/v1.1.7...v1.1.8) (2024-05-16)
+
+
+### Bug Fixes
+
+* update dependencies ([990c775](https://github.com/cheminfo/baselines/commit/990c7751a399c2647659624b2623c658787a56a5))
+* update ml-airpls ([#33](https://github.com/cheminfo/baselines/issues/33)) ([04dafe2](https://github.com/cheminfo/baselines/commit/04dafe26524574a0653a1dccb15305a4808ac2a0))
+
 ## [1.1.7](https://github.com/cheminfo/baselines/compare/v1.1.6...v1.1.7) (2024-03-07)
 
 
