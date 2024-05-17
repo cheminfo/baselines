@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.9](https://github.com/cheminfo/baselines/compare/v1.1.8...v1.1.9) (2024-05-17)
+
+
+### Bug Fixes
+
+* update dependencies to remove default ([8fa6f59](https://github.com/cheminfo/baselines/commit/8fa6f59d874d2a58b1e05dbb29081f22ab1fd478))
+
 ## [1.1.8](https://github.com/cheminfo/baselines/compare/v1.1.7...v1.1.8) (2024-05-16)
 
 
