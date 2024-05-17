@@ -46,7 +46,7 @@
   "dependencies": {
     "ml-airpls": "^2.0.0",
     "ml-array-sequential-fill": "^1.1.8",
-    "ml-baseline-correction-regression": "^1.0.3",
+    "ml-baseline-correction-regression": "^2.0.1",
     "ml-rolling-ball-baseline": "^2.0.3",
     "ml-spectra-processing": "^14.5.0"
   },
