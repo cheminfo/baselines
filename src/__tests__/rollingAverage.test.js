@@ -1,3 +1,5 @@
+import { expect, test } from 'vitest';
+
 import { rollingAverageBaseline } from '../rollingAverage.js';
 
 test('rolling average', () => {
