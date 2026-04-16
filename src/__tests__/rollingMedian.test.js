@@ -1,3 +1,5 @@
+import { expect, test } from 'vitest';
+
 import { rollingMedianBaseline } from '../rollingMedian.js';
 
 test('rolling median', () => {
