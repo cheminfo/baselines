@@ -1,5 +1,5 @@
 import airpls from 'ml-airpls';
-import sequentialFill from 'ml-array-sequential-fill';
+import { xSequentialFillFromTo } from 'ml-spectra-processing/x';
 /**
  * Adaptive iteratively reweighted penalized least squares [1]
  *
@@ -24,7 +24,11 @@ export function airPLSBaseline(ys, options = {}) {
   const numberPoints = ys.length;
   let { x, regressionOptions } = options;
   if (!x) {
-    x = sequentialFill({ from: 0, to: numberPoints - 1, size: numberPoints });
+    x = xSequentialFillFromTo({
+      from: 0,
+      to: numberPoints - 1,
+      size: numberPoints,
+    });
   }
   let output = airpls(x, ys, regressionOptions);
 

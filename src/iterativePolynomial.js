@@ -1,5 +1,5 @@
-import sequentialFill from 'ml-array-sequential-fill';
 import { baselineCorrectionRegression } from 'ml-baseline-correction-regression';
+import { xSequentialFillFromTo } from 'ml-spectra-processing/x';
 
 /**
  * Iterative polynomial fitting [1]
@@ -27,7 +27,11 @@ export function iterativePolynomialBaseline(ys, options = {}) {
   const numberPoints = ys.length;
   let { x, regressionOptions } = options;
   if (!x) {
-    x = sequentialFill({ from: 0, to: numberPoints - 1, size: numberPoints });
+    x = xSequentialFillFromTo({
+      from: 0,
+      to: numberPoints - 1,
+      size: numberPoints,
+    });
   }
 
   let output = baselineCorrectionRegression(x, ys, regressionOptions);
